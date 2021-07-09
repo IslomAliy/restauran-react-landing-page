@@ -18,12 +18,18 @@ const MainMenu = styled.ul `
 const LiMenu = styled.li `
     margin-right: 30px;
     
-    .menu-link & {
+    .menu-link {
         color: #000;
-    }
 
-    &:hover {
-        color: #D1A954;
+        &:hover {
+            color: #D1A954;
+        }
+
+        &.bordered {
+            border: 1px solid #D1A954;
+            color: #D1A954;
+            padding: 7px 9px;
+        }
     }
 `;
 
@@ -33,7 +39,7 @@ const Header = () => {
         <Navbar>
             <img src="images/logo.svg" alt="logo"/>
             <MainMenu>
-                <LiMenu><a class="menu-link" href="#">Главная</a></LiMenu>
+                <LiMenu><a class="menu-link bordered" href="#">Главная</a></LiMenu>
                 <LiMenu><a class="menu-link" href="#">SOFIT EVENT HOUSE</a></LiMenu>
                 <LiMenu><a class="menu-link" href="#">МЕРОПРИЯТИЯ</a></LiMenu>
                 <LiMenu><a class="menu-link" href="#">ТУРИСТАМ</a></LiMenu>
