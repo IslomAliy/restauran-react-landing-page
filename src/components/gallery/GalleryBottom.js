@@ -2,7 +2,7 @@ import styled from "styled-components";
 const StyledWrapper = styled.div `
     display: flex;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 150px;
     .StyledWrapper__img {
         width: 635px;
         height: 630px;
