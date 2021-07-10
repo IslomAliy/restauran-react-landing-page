@@ -4,6 +4,7 @@ import Card from './components/card'
 import Cards from './components/card/Cards';
 import SliderControls from "./components/card/SliderControls";
 import Description from './components/description';
+import Gallery from './components/gallery';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </Cards>
       <SliderControls/>
       <Description/>
+      <Gallery/>
 
       <Footer/> 
    </div>
