@@ -6,6 +6,7 @@ const StyledWrapper = styled.div `
     background: url(images/banner.png);
     background-repeat: no-repeat;  
     background-size: cover;
+    margin-bottom: 120px;
     .StyledWrapper__title {
         display: block;
         margin-bottom: 70px;
@@ -13,6 +14,7 @@ const StyledWrapper = styled.div `
         color: #fff;
         font-weight: 300;
         text-align: center;
+        text-shadow: 2px 3px 8px rgba(0,0,0,0.9);
     }
 `;
 
@@ -33,12 +35,16 @@ const StyledButtonWrapper = styled.div `
         font-weight: 300;
         padding: 20px 58px;
         margin-right: 90px;
-
+        background-color: #fff;
+        border: none;
     }
+
     .StyledButtonWrapper__btn2 {
         font-size: 16px;
         font-weight: 300;
         padding: 20px 46px;
+        background-color: #fff;
+        border: none;
     }
 `;
 
