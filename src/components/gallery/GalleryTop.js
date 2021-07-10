@@ -3,7 +3,7 @@ const StyledWrapper = styled.div `
     display: flex;
     /* justify-content: space-between; */
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 
     .StyledWrapper__secondImage {
         margin-right: 30px;
