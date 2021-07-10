@@ -6,6 +6,8 @@ import SliderControls from "./components/card/SliderControls";
 import Description from './components/description';
 import Gallery from './components/gallery';
 import Download from './components/download';
+import Contact from './components/contact';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <Description/>
       <Gallery/>
       <Download/>
+      <Contact/>
 
       <Footer/> 
    </div>
