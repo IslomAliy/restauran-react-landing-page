@@ -5,6 +5,7 @@ import Cards from './components/card/Cards';
 import SliderControls from "./components/card/SliderControls";
 import Description from './components/description';
 import Gallery from './components/gallery';
+import Download from './components/download';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SliderControls/>
       <Description/>
       <Gallery/>
+      <Download/>
 
       <Footer/> 
    </div>
