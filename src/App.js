@@ -7,6 +7,7 @@ import Description from './components/description';
 import Gallery from './components/gallery';
 import Download from './components/download';
 import Contact from './components/contact';
+import Instagram from './components/instagram';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Gallery/>
       <Download/>
       <Contact/>
+      <Instagram/>
 
       <Footer/> 
    </div>
