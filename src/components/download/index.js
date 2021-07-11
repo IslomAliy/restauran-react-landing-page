@@ -53,10 +53,10 @@ const Download = () => {
     return ( 
         <StyledWrapper>
             <StyledWrapper__content>
-                <h2 className="StyledWrapper__title">узнайте о нас больше</h2>
+                <h2 className="StyledWrapper__title">УЗНАЙТЕ О НАС БОЛЬШЕ</h2>
                 <StyledButtonWrapper>
-                    <button className="StyledButtonWrapper__btn1">Скачать план</button>
-                    <button className="StyledButtonWrapper__btn2">Скачать презентацию</button>
+                    <button className="StyledButtonWrapper__btn1">СКАЧАТЬ ПЛАН</button>
+                    <button className="StyledButtonWrapper__btn2">СКАЧАТЬ ПРЕЗЕНТАЦИЮ</button>
                 </StyledButtonWrapper>
             </StyledWrapper__content>
         </StyledWrapper>

@@ -39,7 +39,7 @@ const GalleryTop = () => {
     return ( 
         <StyledWrapper>
             <StyledTitle>
-                <h2 className="StyledTitle__title">галерея</h2>
+                <h2 className="StyledTitle__title">ГАЛЕРЕЯ</h2>
                 <img className="StyledTitle__img" src="images/descr.svg" alt="logo" />
                 <p className="StyledTitle__desc">летний дворец</p>
             </StyledTitle>

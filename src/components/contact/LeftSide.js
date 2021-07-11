@@ -92,12 +92,12 @@ const LeftSide = () => {
         <StyledWrapper>
             <StyledContacts>
                 <StyledContactsLeft>
-                    <h2 className="StyledContactsLeft__BigTitle">хотите провести мероприятие?</h2>
+                    <h2 className="StyledContactsLeft__BigTitle">ХОТИТЕ ПРОВЕСТИ МЕРОПРИЯТИЕ?</h2>
                     <p className="StyledContactsLeft__description">Или у вас остались вопросы, на которые мы сможем вам ответить в процессе разговора - напишите нам. Мы открыты для диалога!</p>
                     
                     <StyledDatas>
                         <StyledDataLeft>
-                            <h3 className="StyledContactsLeft__SmallTitle">ресторан</h3>
+                            <h3 className="StyledContactsLeft__SmallTitle">РЕСТОРАН</h3>
                             
                             <DataWrapper>
                                 <img className="DataWrapper__img" src="images/location.svg" alt="location" />
@@ -116,7 +116,7 @@ const LeftSide = () => {
                         </StyledDataLeft>
 
                         <StyledDataRight>
-                            <h3 className="StyledContactsRight__SmallTitle">офис</h3>
+                            <h3 className="StyledContactsRight__SmallTitle">ОФИС</h3>
 
                             <DataWrapper>
                                 <img className="DataWrapper__img" src="images/location.svg" alt="location" />
@@ -141,7 +141,7 @@ const LeftSide = () => {
                     <input type="text" placeholder="Ваш e-mail" className="StyledContactsRight__input"/>
 
                     <textarea name="message" id="first" cols="30" rows="10" className="StyledContactsRight__textarea" placeholder="Сообщение"></textarea>
-                    <button className="StyledContactsRight__button">отправить</button>
+                    <button className="StyledContactsRight__button">ОТПРАВИТЬ</button>
                 </StyledContactsRight>
             </StyledContacts>
         </StyledWrapper>
