@@ -4,7 +4,7 @@ import RightSide from './RightSide';
 const Contact = () => {
     return ( 
         <>
-            <LeftSide/>
+            <LeftSide />
             <RightSide/>
         </>
      );
