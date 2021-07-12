@@ -1,5 +1,5 @@
-import GalleryTop from "./GalleryTop";
-import GalleryBottom from "./GalleryBottom";
+import GalleryTop from "./Top";
+import GalleryBottom from "./Bottom";
 
 const Gallery = () => {
     return ( 

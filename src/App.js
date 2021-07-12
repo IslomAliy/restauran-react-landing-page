@@ -1,32 +1,31 @@
-import Header from './components/header';
-import Footer from './components/footer';
-import Card from './components/card'
-import Cards from './components/card/Cards';
-import SliderControls from "./components/card/SliderControls";
-import Description from './components/description';
-import Gallery from './components/gallery';
-import Download from './components/download';
-import Contact from './components/contact';
-import Instagram from './components/instagram';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Card from './components/Card'
+import Cards from './components/Card/Cards';
+import SliderControls from "./components/Card/SliderControls";
+import Description from './components/Description';
+import Gallery from './components/Gallery';
+import Download from './components/Download';
+import Contact from './components/Contact';
+import Instagram from './components/Instagram';
 
 
 function App() {
   return (
    <div className="App">
-      <Header/>
+      <Header />
       <Cards>
         <Card title="КОРПОРАТИВЫ" desc="Отметьте лучший праздник в лучшем дворце Петербурга!"/>
         <Card title="СВАДЬБЫ" desc="Отметьте лучший праздник в лучшем дворце Петербурга!"/>
         <Card title="ЗВАНЫЕ ВЕЧЕРА" desc="Отметьте лучший праздник в лучшем дворце Петербурга!"/>
       </Cards>
-      <SliderControls/>
-      <Description/>
-      <Gallery/>
-      <Download/>
-      <Contact/>
+      <SliderControls />
+      <Description />
+      <Gallery />
+      <Download />
+      <Contact />
       <Instagram/>
-
-      <Footer/> 
+      <Footer /> 
    </div>
   );
 }

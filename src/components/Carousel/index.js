@@ -9,7 +9,7 @@ const Images = styled.div `
 
 `;
 
-const BottomGallery = () => {
+const Carousel = () => {
     return ( 
         <Images>
             <img className="image" src="images/bottom.png" alt="bottom-gallery" />
@@ -23,4 +23,4 @@ const BottomGallery = () => {
      );
 }
  
-export default BottomGallery;
+export default Carousel;

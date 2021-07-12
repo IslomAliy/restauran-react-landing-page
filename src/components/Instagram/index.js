@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import AboutTitle from "../description/AboutTitle";
-import BottomGallery from "./BottomGallery";
+import AboutTitle from "../Description/AboutTitle";
+import Carousel from "../Carousel";
 
 const StyledWrapper = styled.div `
     background-color:#F9F7F7;
@@ -12,10 +12,10 @@ const StyledWrapper = styled.div `
 const Instagram = () => {
     return ( 
         <>
-        <StyledWrapper>
-            <AboutTitle title="НАШ INSTAGRAM" desc="ЛЕТНИЙ ДВОРЕЦ"/>
-        </StyledWrapper>
-        <BottomGallery/>
+            <StyledWrapper>
+                <AboutTitle title="НАШ INSTAGRAM" desc="ЛЕТНИЙ ДВОРЕЦ"/>
+            </StyledWrapper>
+            <Carousel/>
         </>
      );
 }
