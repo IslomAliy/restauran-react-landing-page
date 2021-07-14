@@ -1,30 +1,30 @@
+import Container from '../Container';
+
 import { 
-    StyledWrapper,
-    StyledRight,
-    StyledTitle
+    StyledSectionOneContainer,
+    StyledSectionTwoContainer,
+    StyledFeaturedItem
 } from "./style";
 
 
 const Gallery = () => {
     return ( 
-        <>
-            <StyledWrapper>
-                <StyledTitle>
-                    <h2 className="StyledTitle__title">ГАЛЕРЕЯ</h2>
-                    <img className="StyledTitle__img" src="images/descr.svg" alt="logo" />
-                    <p className="StyledTitle__desc">летний дворец</p>
-                </StyledTitle>
-                <img className="StyledWrapper__secondImage" src="images/first.png" alt="first gallery" />
+        <Container>
+            <StyledSectionOneContainer>
+                <StyledFeaturedItem>
+                    <h2>ГАЛЕРЕЯ</h2>
+                    <img src="images/descr.svg" alt="logo" />
+                    <p>летний дворец</p>
+                </StyledFeaturedItem>
+                <img src="images/first.png" alt="first gallery" />
                 <img src="images/second.png" alt="second gallery" />
-            </StyledWrapper>
-            <StyledWrapper>
+            </StyledSectionOneContainer>
+            <StyledSectionTwoContainer>
                 <img src="images/fourth.png" alt="fourth img" />
-                <StyledRight>
-                    <img src="images/fiveth.png" alt="fiveth" />
-                    <img src="images/fiveth.png" alt="fiveth" />
-                </StyledRight>
-            </StyledWrapper>
-        </>
+                <img src="images/fiveth.png" alt="fiveth" />
+                <img src="images/fiveth.png" alt="fiveth" />
+            </StyledSectionTwoContainer>
+        </Container>
      );
 }
  
