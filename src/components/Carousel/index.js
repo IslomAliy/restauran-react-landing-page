@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Images = styled.div `
     display: flex;
+    overflow: hidden;
 
     .image {
         margin-right: 2px;

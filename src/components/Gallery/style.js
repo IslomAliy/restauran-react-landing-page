@@ -20,6 +20,7 @@ export const StyledSectionTwoContainer = styled.div`
     display: grid;
     grid-template: 300px 300px / 1fr 1fr 1fr;
     grid-gap: 30px;
+    margin-bottom: 30px;;
 
     img {
         display: block;
