@@ -1,5 +1,5 @@
 import VideoComponent from "../Video/VideoComponent";
-import HeroTitle from "../../HeroTitle";
+import HeroTitle from "../HeroTitle";
 import { Wrapper, DescriptionWrapper, Container, FeatureCard} from "./style";
 
 const Description = () => {
