@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import AboutTitle from "../Description/AboutTitle";
+import HeroTitle from "../../HeroTitle";
 import Carousel from "../Carousel";
 
 const StyledWrapper = styled.div `
@@ -13,7 +13,7 @@ const Instagram = () => {
     return ( 
         <>
             <StyledWrapper>
-                <AboutTitle title="НАШ INSTAGRAM" desc="ЛЕТНИЙ ДВОРЕЦ"/>
+                <HeroTitle title="НАШ INSTAGRAM" desc="ЛЕТНИЙ ДВОРЕЦ"/>
             </StyledWrapper>
             <Carousel/>
         </>

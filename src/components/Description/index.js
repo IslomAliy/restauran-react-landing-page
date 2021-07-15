@@ -1,13 +1,13 @@
 import BigDesc from "./BigDesc";
 import VideoComponent from "./VideoComponent";
-import AboutTitle from "./AboutTitle";
 import DescWrapper from "./DescWrapper";
 import RightDescs from "./RightDescs";
+import HeroTitle from "../../HeroTitle";
 
 const Description = () => {
     return ( 
         <>
-            <AboutTitle title="О РЕСТОРАНЕ" desc="летний дворец"/>
+            <HeroTitle title="О РЕСТОРАНЕ" desc="летний дворец"/>
             <VideoComponent/>
             <DescWrapper>
                 <BigDesc/>
