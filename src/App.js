@@ -1,8 +1,8 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Card from './components/Card'
-import Cards from './components/Card/Cards';
-import SliderControls from "./components/Card/SliderControls";
+import Cards from './components/CardsContainer';
+import SliderControls from "./components/Slider";
 import Description from './components/Description';
 import Gallery from './components/Gallery';
 import Download from './components/Download';
@@ -19,7 +19,7 @@ function App() {
         <Card title="СВАДЬБЫ" desc="Отметьте лучший праздник в лучшем дворце Петербурга!"/>
         <Card title="ЗВАНЫЕ ВЕЧЕРА" desc="Отметьте лучший праздник в лучшем дворце Петербурга!"/>
       </Cards>
-      <SliderControls />
+      <SliderControls/>
       <Description />
       <Gallery />
       <Download />
