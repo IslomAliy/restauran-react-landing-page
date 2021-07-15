@@ -1,50 +1,16 @@
-import styled from 'styled-components';
-
-const Navbar = styled.div `
-    display: flex;
-    justify-content: space-around;
-    max-width: 1800px;
-    margin: 0 auto;
-    align-items: center;
-    margin: 60px 0 60px 0;
-`;
-
-
-const MainMenu = styled.ul `
-    display:flex;
-    justify-content: space-between;
-`;
-
-const LiMenu = styled.li `
-    margin-right: 30px;
-    
-    .menu-link {
-        color: #000;
-
-        &:hover {
-            color: #D1A954;
-        }
-
-        &.bordered {
-            border: 1px solid #D1A954;
-            color: #D1A954;
-            padding: 7px 9px;
-        }
-    }
-`;
-
+import { Navbar, MainMenu, LiMenu, MenuLink } from "./style";
 
 const Header = () => {
     return ( 
         <Navbar>
             <img src="images/logo.svg" alt="logo"/>
             <MainMenu>
-                <LiMenu><a class="menu-link bordered" href="#">Главная</a></LiMenu>
-                <LiMenu><a class="menu-link" href="#">SOFIT EVENT HOUSE</a></LiMenu>
-                <LiMenu><a class="menu-link" href="#">МЕРОПРИЯТИЯ</a></LiMenu>
-                <LiMenu><a class="menu-link" href="#">ТУРИСТАМ</a></LiMenu>
-                <LiMenu><a class="menu-link" href="#">КЕЙТЕРИНГ</a></LiMenu>
-                <LiMenu><a class="menu-link" href="#">ДЛЯ АГЕНТСТВ</a></LiMenu>
+                <LiMenu><MenuLink class="bordered" href="#">Главная</MenuLink></LiMenu>
+                <LiMenu><MenuLink href="#">SOFIT EVENT HOUSE</MenuLink></LiMenu>
+                <LiMenu><MenuLink href="#">МЕРОПРИЯТИЯ</MenuLink></LiMenu>
+                <LiMenu><MenuLink href="#">ТУРИСТАМ</MenuLink></LiMenu>
+                <LiMenu><MenuLink href="#">КЕЙТЕРИНГ</MenuLink></LiMenu>
+                <LiMenu><MenuLink href="#">ДЛЯ АГЕНТСТВ</MenuLink></LiMenu>
             </MainMenu>
 
             <a href="#"><img src="images/menu.svg" alt="hamburger menu"/></a>
